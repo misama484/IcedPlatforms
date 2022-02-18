@@ -7,6 +7,8 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D playerRB;
     SpriteRenderer playerRenderer;
     public float force = 10;
+    //con estra booleana controlamos donde mira el avatar (la usamos de condicional en el FixedUpdate)
+    bool faceRigth = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,15 +20,24 @@ public class PlayerController : MonoBehaviour
     {
         float movement = Input.GetAxis("Horizontal"); //capturamos teclado
         playerRB.velocity = (transform.right * movement * force); //aplicamos fuerza para mover el player
-        if(movement < 0)
+        if(movement > 0 && !faceRigth) //si nos movemos a la derecha, x es menor que 0, y faceRigt es false
         {
-            playerRenderer.flipX = true;
+            Turn();
         }
         else
         {
-            playerRenderer.flipX = false;
+            if(movement < 0 && faceRigth)
+            {
+                Turn();
+            }           
         }
         
+    }
+
+    void Turn() //accedemos a transfor.localScale y le asignamos un nuevo vector2 cambiando la posicion de la x al valor negativo para que gire, la y no la tocamos
+    {
+        transform.localScale = new Vector2(transform.localScale.x * -1, transform.localScale.y);
+        faceRigth = !faceRigth; // faceRigth tomara el valor contratio del valor que tuviera
     }
 
     // Update is called once per frame
