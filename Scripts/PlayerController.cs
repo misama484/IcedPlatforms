@@ -6,14 +6,16 @@ public class PlayerController : MonoBehaviour
 {
     Rigidbody2D playerRB;
     SpriteRenderer playerRenderer;
-    public float force = 10;
+    public float force = 5;
     //con estra booleana controlamos donde mira el avatar (la usamos de condicional en el FixedUpdate)
     bool faceRigth = true;
+    Animator animator;
     // Start is called before the first frame update
     void Start()
     {
         playerRB = GetComponent<Rigidbody2D>();
         playerRenderer = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
     }
 
     private void FixedUpdate()
@@ -31,6 +33,11 @@ public class PlayerController : MonoBehaviour
                 Turn();
             }           
         }
+
+        animator.SetFloat("MoveSpeed", Mathf.Abs(movement)); //creamos un componente animator para acceder a la animacion, accedemos a SetFloat y le asignamos un valor
+        // de acuerdo con la variable moveSpeed
+        //le pasamos el valor move pasado a Absoluto, 
+        
         
     }
 
