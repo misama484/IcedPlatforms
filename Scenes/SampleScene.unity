@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420030}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -149,6 +150,20 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
+--- !u!114 &519420030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdbd76c696cdc2949a440a49f600d081, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1312893049}
+  smoothing: 5
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -205,6 +220,204 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &688699928
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 688699930}
+  - component: {fileID: 688699929}
+  m_Layer: 0
+  m_Name: Iceworld_Background_0001
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &688699929
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688699928}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -1500050053
+  m_SortingLayer: -1
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: c376948577663234f942e90523f4af7e, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 8, y: 4}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &688699930
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688699928}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.4659253, y: 0.14929351, z: 6.212728}
+  m_LocalScale: {x: 0.9316412, y: 2.143694, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1208746249}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &908818987
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 908818989}
+  - component: {fileID: 908818988}
+  m_Layer: 0
+  m_Name: Iceworld_Background_0002
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &908818988
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 908818987}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -1500050053
+  m_SortingLayer: -1
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 13ac864eef0d0a845998ca52f038dc34, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 8, y: 4}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &908818989
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 908818987}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.4610254, y: -0.8853065, z: 6.212728}
+  m_LocalScale: {x: 0.937, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1208746249}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1208746248
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1208746249}
+  m_Layer: 0
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1208746249
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208746248}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.4410254, y: 0.1753065, z: -6.212728}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 688699930}
+  - {fileID: 908818989}
+  - {fileID: 2136390108}
+  - {fileID: 1455121318}
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1312893046
 GameObject:
@@ -307,8 +520,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1312893046}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.931, y: 0.853, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
+  m_LocalPosition: {x: -0.951, y: 0.623, z: 0}
+  m_LocalScale: {x: 0.20680001, y: 0.2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
@@ -326,8 +539,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.57642317, y: -0.118240416}
-  m_Size: {x: 2.2341912, y: 3.6235194}
+  m_Offset: {x: -0.0063559064, y: 1.0506661}
+  m_Size: {x: 2.0216205, y: 3.9232407}
   m_Direction: 0
 --- !u!95 &1312893051
 Animator:
@@ -360,7 +573,173 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac5b366a805f0b34084c68343b481fc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  force: 10
+  force: 5
+  jumpForce: 50
+  IsGrounded: 1
+--- !u!1 &1455121316
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1455121318}
+  - component: {fileID: 1455121317}
+  m_Layer: 0
+  m_Name: Iceworld_Background_0002 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1455121317
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455121316}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -1500050053
+  m_SortingLayer: -1
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 13ac864eef0d0a845998ca52f038dc34, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 8, y: 4}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1455121318
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455121316}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.000075, y: -0.8607065, z: 6.212728}
+  m_LocalScale: {x: 0.9410291, y: 1.0076, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1208746249}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2136390106
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2136390108}
+  - component: {fileID: 2136390107}
+  m_Layer: 0
+  m_Name: Iceworld_Background_0001 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &2136390107
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136390106}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -1500050053
+  m_SortingLayer: -1
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: c376948577663234f942e90523f4af7e, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 8, y: 4}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &2136390108
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136390106}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.995175, y: 0.18179351, z: 6.212728}
+  m_LocalScale: {x: 0.93564725, y: 2.1599858, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1208746249}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &543888340563471817
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -374,11 +753,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3839438326765966190, guid: 0e90285914bda2e458f394ca1654b5f3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.94
+      value: 3.53
       objectReference: {fileID: 0}
     - target: {fileID: 3839438326765966190, guid: 0e90285914bda2e458f394ca1654b5f3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.04
+      value: -0.04
       objectReference: {fileID: 0}
     - target: {fileID: 3839438326765966190, guid: 0e90285914bda2e458f394ca1654b5f3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -416,6 +795,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: grounds_8
       objectReference: {fileID: 0}
+    - target: {fileID: 5235567670644669890, guid: 0e90285914bda2e458f394ca1654b5f3, type: 3}
+      propertyPath: m_TagString
+      value: floor
+      objectReference: {fileID: 0}
     - target: {fileID: 7173305315539902609, guid: 0e90285914bda2e458f394ca1654b5f3, type: 3}
       propertyPath: m_Size.y
       value: 0.040091872
@@ -437,6 +820,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: grounds_0
       objectReference: {fileID: 0}
+    - target: {fileID: 6652369294072776518, guid: 9cab60cb05adda44682f74ea8469ce54, type: 3}
+      propertyPath: m_TagString
+      value: floor
+      objectReference: {fileID: 0}
     - target: {fileID: 6657168697241628951, guid: 9cab60cb05adda44682f74ea8469ce54, type: 3}
       propertyPath: m_Size.y
       value: 0.045354128
@@ -451,11 +838,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9184878277073426746, guid: 9cab60cb05adda44682f74ea8469ce54, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.26
+      value: 5.55
       objectReference: {fileID: 0}
     - target: {fileID: 9184878277073426746, guid: 9cab60cb05adda44682f74ea8469ce54, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.18
+      value: -0.15
       objectReference: {fileID: 0}
     - target: {fileID: 9184878277073426746, guid: 9cab60cb05adda44682f74ea8469ce54, type: 3}
       propertyPath: m_LocalPosition.z
@@ -501,6 +888,10 @@ PrefabInstance:
     - target: {fileID: 3031754364057565555, guid: 3b2af8302374b9944bd4891d4b839db4, type: 3}
       propertyPath: m_Name
       value: grounds_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3031754364057565555, guid: 3b2af8302374b9944bd4891d4b839db4, type: 3}
+      propertyPath: m_TagString
+      value: floor
       objectReference: {fileID: 0}
     - target: {fileID: 3031754364057565557, guid: 3b2af8302374b9944bd4891d4b839db4, type: 3}
       propertyPath: m_RootOrder
@@ -619,6 +1010,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: grounds_9BG
       objectReference: {fileID: 0}
+    - target: {fileID: 3145728680732260334, guid: ee071a3ab6fe0b646b5e2d339e56e510, type: 3}
+      propertyPath: m_TagString
+      value: floor
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ee071a3ab6fe0b646b5e2d339e56e510, type: 3}
 --- !u!1001 &7448061900360322917
@@ -675,6 +1070,10 @@ PrefabInstance:
     - target: {fileID: 5368064393119603752, guid: 90a72384a92444347b777097a90be242, type: 3}
       propertyPath: m_Name
       value: grounds_0BG
+      objectReference: {fileID: 0}
+    - target: {fileID: 5368064393119603752, guid: 90a72384a92444347b777097a90be242, type: 3}
+      propertyPath: m_TagString
+      value: floor
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90a72384a92444347b777097a90be242, type: 3}
@@ -733,6 +1132,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: grounds_8BG
       objectReference: {fileID: 0}
+    - target: {fileID: 7702164327349195975, guid: 7b39228eaa6d3e34eb19104d2fdf9692, type: 3}
+      propertyPath: m_TagString
+      value: floor
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b39228eaa6d3e34eb19104d2fdf9692, type: 3}
 --- !u!1001 &8923383768495483187
@@ -745,6 +1148,10 @@ PrefabInstance:
     - target: {fileID: 6316387762366206784, guid: 30a5a3f042da90c47beeaf37e5cee9be, type: 3}
       propertyPath: m_Name
       value: grounds_3BG
+      objectReference: {fileID: 0}
+    - target: {fileID: 6316387762366206784, guid: 30a5a3f042da90c47beeaf37e5cee9be, type: 3}
+      propertyPath: m_TagString
+      value: floor
       objectReference: {fileID: 0}
     - target: {fileID: 8815435474266500790, guid: 30a5a3f042da90c47beeaf37e5cee9be, type: 3}
       propertyPath: m_RootOrder
